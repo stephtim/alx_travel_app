@@ -1,0 +1,10 @@
+### install required packages
+pip install django djangorestframework django-cors-headers drf-yasg celery
+
+### create Django project
+django-admin startproject alx_travel_app
+cd alx_travel_app
+
+### create listings
+python manage.py startapp listings
+
